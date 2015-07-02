@@ -35,13 +35,15 @@ def load_training(limit=None, neighbors=2):
 
 def build_model(input_size):
     model = Sequential()
-    model.add(Dense(input_size, 256, init='lecun_uniform'))
+    model.add(Dense(input_size, 512, init='lecun_uniform'))
     model.add(Activation('tanh'))
-    model.add(Dense(256, 256, init='lecun_uniform'))
+    model.add(Dense(512, 256, init='lecun_uniform'))
     model.add(Activation('tanh'))
-    model.add(Dense(256, 256, init='lecun_uniform'))
+    model.add(Dense(256, 128, init='lecun_uniform'))
     model.add(Activation('tanh'))
-    model.add(Dense(256, 1, init='lecun_uniform'))
+    model.add(Dense(128, 64, init='lecun_uniform'))
+    model.add(Activation('tanh'))
+    model.add(Dense(64, 1, init='lecun_uniform'))
     model.add(Activation('tanh'))
 
     sgd = SGD(lr=0.01, momentum=0.9) # , nesterov=True)
