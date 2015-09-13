@@ -40,8 +40,30 @@ rudimentary background in machine learning.
   seems less so: as they conclude the paper, "Classical second-order
   methods are impractical in almost all useful cases".
 
-On my list:
+- http://deeplearning.net/tutorial/lenet.html: Decent introduction to
+  convolutional neural networks. I wasn't previously familiar with
+  convolutions and didn't fully understand it until I'd read
+  http://www.songho.ca/dsp/convolution/convolution.html.
 
-- http://deeplearning.net/tutorial/lenet.html
-- http://yyue.blogspot.com/2015/01/a-brief-overview-of-deep-learning.html
-- https://christopherolah.wordpress.com/
+- http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf:
+  Contains thorough background on recurrent neural networks, with many
+  experiments and tricks for training your own.
+
+-
+  http://andrew.gibiansky.com/blog/machine-learning/conjugate-gradient/:
+  This whole blog is great. It has good exposition on some of the more
+  mathematically-involved techniques.
+
+- http://arxiv.org/pdf/1211.5063v2.pdf: A better choice of activation
+function and initialization scheme.
+
+- http://deepdish.io/2015/02/24/network-initialization/: More recent
+  overview of initialization techniques.
+
+-
+  http://yyue.blogspot.com/2015/01/a-brief-overview-of-deep-learning.html:
+  Great overview of how to think about deep neural networks, and how
+  to train them in practice.
+
+- https://christopherolah.wordpress.com/: Many amazing blog posts
+  which explore deep concepts in accessible ways.
