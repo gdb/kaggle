@@ -49,8 +49,7 @@ rudimentary background in machine learning.
   Contains thorough background on recurrent neural networks, with many
   experiments and tricks for training your own.
 
--
-  http://andrew.gibiansky.com/blog/machine-learning/conjugate-gradient/:
+- http://andrew.gibiansky.com/blog/machine-learning/conjugate-gradient/:
   This whole blog is great. It has good exposition on some of the more
   mathematically-involved techniques.
 
@@ -60,8 +59,7 @@ function and initialization scheme.
 - http://deepdish.io/2015/02/24/network-initialization/: More recent
   overview of initialization techniques.
 
--
-  http://yyue.blogspot.com/2015/01/a-brief-overview-of-deep-learning.html:
+- http://yyue.blogspot.com/2015/01/a-brief-overview-of-deep-learning.html:
   Great overview of how to think about deep neural networks, and how
   to train them in practice.
 
